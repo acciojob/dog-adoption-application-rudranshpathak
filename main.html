@@ -25,14 +25,15 @@
 		<input type="checkbox" value="Have you ever lived with a Dog before?" id="checkbox" required>
 
 	    <label for="dogs">Please select your preferred breeds</label>
-		<select id="multiSelect" required>
-<!-- 			<option value="" ></option> -->
-			<option value="golden retriever">golden retriever</option>
-			<option value="labrador">labrador</option>
-			<option value="bulldog">bulldog</option>
+		<select id="multiSelect" name="dog breeds" multiple>
+
+			<option value="multiSelect">golden retriever</option>
+			<option value="multiSelect">labrador</option>
+			<option value="multiSelect">bulldog</option>
 		</select>
 
-		<button type="submit" id="submit" value="submit">submit</button>
+		<label for="submit">Submit</label>
+		<input type="submit" id="submit" name="Submit" value="Submit">
 		
 	</form>
 
